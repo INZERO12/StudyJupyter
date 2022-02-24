@@ -32,3 +32,30 @@ Jupyter NoteBook 학습 리포지토리
 	- 정렬하기 sort
 	- 데이터 합하기 concat/merge
 	
+### 3일차
+1. 빈도 및 교차 데이터 만들기
+	- 빈도분석 value_counts
+	- 교차분석 pd.crosstab
+		- 빈도 비율 확인 apply
+		- 연속형데이터 describe()
+2. 결측치 처리하기
+	- 결측치 확인 isnull / notnull
+	- 결측치 제거 dropna
+	- 결측치 대체 fillna
+
+### 4일차
+1. 이상치 처리하기
+	- 인덱스 번호 재배열 reset_index
+	- boxplot으로 이상치 확인하기
+	- 기초통계 확인 describe()
+	- 최대값/최소값 계산하여 제거하기
+		- percentile()함수
+		- IQR 값 계산
+		- 이상치값 조회
+	- 행 번호만 조회 np.where
+	- 이상치 제거하기				
+2. 함수/모듈 생성
+	- 매개변수가 없는 함수 만들기
+	- 매개변수가 1개 있는 함수 만들기
+	- 매개변수가 2개 있는 함수 만들기
+	- 모듈 만들기
