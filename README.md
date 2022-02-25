@@ -59,3 +59,21 @@ Jupyter NoteBook 학습 리포지토리
 	- 매개변수가 1개 있는 함수 만들기
 	- 매개변수가 2개 있는 함수 만들기
 	- 모듈 만들기
+	
+### 5일차
+1. 중복데이터 처리하기
+	- 중복데이터 확인 : duplicated()
+	- 중복데이터 삭제 : drop_duplicates()
+		- keep = 'first','last','False'
+	- 기초통계 : describe()
+	- 빈도분석 : value_counts()
+2. 데이터 탐색하기 그룹 재구조화 시계열
+	- 데이터 그룹분석하기
+		- 그룹화하기 : df.groupby(['컬럼'])
+		- 그룹화환 데이터 전체 확인 : df.head()
+		- 특정 그룹의 데이터 조회 : df.get_group("데이터")
+		- 실제 데이터가 어떻게 구성되어 있는지 확인 : groups
+	- 재구조화
+		- cut() / agg() / qcut()
+	- 원-핫 인코딩 pd.get_dummies(df)
+	- 데이터 전치 df.T
