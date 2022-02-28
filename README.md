@@ -77,6 +77,7 @@ Jupyter NoteBook 학습 리포지토리
 		- cut() / agg() / qcut()
 	- 원-핫 인코딩 pd.get_dummies(df)
 	- 데이터 전치 df.T
+	- 피봇 테이블 pivot_table
 	
 ### 6일차
 1. 시계열 데이터
